@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #548687;
+    text-align: center;
+
+}
+.container{
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+     height: 60vmin ;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+   
+}
+.box{
+   height: 18vmin; 
+   width: 18vmin;
+   border-radius: 1rem;
+   border: none;
+   box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+   font-size: 8vmin;
+   color: #b0413e;
+   background-color: white;
+}
+.box:hover {
+    transform: translateY(-6px); /* Move element up by 5px */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Add a shadow to create depth */
+    transition: transform.3s ease-in-out, box-shadow.3s ease-in-out; /* Add a smooth transition */
+    box-shadow: 6px 8px 6px 5px rgb(27, 82, 108);
+}
+#reset-Btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    border-radius:  1rem;
+    cursor: pointer;
+    color: white;
+border: none;
+
+}
+#new-Btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    border-radius:  1rem;
+    cursor: pointer;
+    color: white;
+border: none;
+}
+#msg{
+    color: white;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4  rem;
+}
+.hide{
+    display: none;
+}
+h1 {
+    font-size: 2.5rem; /* Set font size to 2.5 times the root font size */
+    font-weight: 900; /* Set font weight to bold */
+    font-family: "Arial", sans-serif; /* Set font family to Roboto */
+    line-height: 1.2; /* Set line height to 1.2 times the font size */
+    color: #191818; /* Set text color to dark gray */
+}
